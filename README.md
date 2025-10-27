@@ -5,7 +5,7 @@ Under the hood is the OpenAI API, which makes 5 requests to the AI using​​ s
 When the main app page is opened, a random word from the last 50 is taken from the database and the user is redirected to the page for that word, which already has a definition and a share button. Accordingly, when the page for a specific word is opened, its definition is loaded from the database and displayed. Simple design using tailwind/shadcn-ui, in dark green tones.
 ```
 
-During manual review and debugging several additional smaller prompts were applied, with error responses and improvements (eg added configuration params). Working application is deployed to [https://nonsense-words-7h0nh603z-brainboosts-projects.vercel.app/](https://nonsense-words-delta.vercel.app)  
+During manual review and debugging several additional smaller prompts were applied, with error responses and improvements (eg added configuration params). Working application is deployed to [https://nonsense-words-delta.vercel.app/](https://nonsense-words-delta.vercel.app)  
 After this line, the documentation is also created by the model. 
 
 # Nonsense Word Generator
